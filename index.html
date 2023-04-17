@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>自己紹介</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #F5F5F5;
-			margin: 0;
-			padding: 0;
-		}
-		h1 {
-			font-size: 36px;
-			color: #333;
-			text-align: center;
-			margin-top: 50px;
-		}
-		p {
-			font-size: 18px;
-			line-height: 1.5;
-			color: #666;
-			margin: 20px auto;
-			max-width: 700px;
-			padding: 0 20px;
-		}
-	</style>
+	<title>ポートフォリオサイト</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<h1>自己紹介</h1>
-	<p>はじめまして、私はIT系を勉強中の凡人です。</p>
-	<p>このサイトはポートフォリオサイトを作るための練習として作っています。</p>
-	<p>2002年9月生まれで、現在は神奈川県に住んでいます。</p>
-	<p>私は現在、都内情報系の大学に在学しており、カワマタくんは朝起きれません。</p>
-	<p>ルーティーンとして、ご褒美によくシュークリームをたべていますが、カワマタくんは朝起きれません。</p>
-	<p>このサイトでは、私の経歴やスキル、作品などを紹介しています。どうぞよろしくお願いいたします。</p>
+	<header>
+		<h1>自分の名前</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">自己紹介</a></li>
+				<li><a href="#skills">スキル</a></li>
+				<li><a href="#works">作品</a></li>
+				<li><a href="#contact">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="about">
+		<h2>自己紹介</h2>
+		<p>自分のプロフィールや経歴、学歴、趣味などを簡単に紹介する。</p>
+	</section>
+
+	<section id="skills">
+		<h2>スキル</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>PHP</li>
+		</ul>
+	</section>
+
+	<section id="works">
+		<h2>作品</h2>
+		<ul>
+			<li>
+				<h3>作品名</h3>
+				<p>作品の説明やスクリーンショット、リンクなどを記載する。</p>
+			</li>
+			<li>
+				<h3>作品名</h3>
+				<p>作品の説明やスクリーンショット、リンクなどを記載する。</p>
+			</li>
+		</ul>
+	</section>
+
+	<section id="contact">
+		<h2>お問い合わせ</h2>
+		<form>
+			<label for="name">名前</label>
+			<input type="text" id="name" name="name">
+			<label for="email">メールアドレス</label>
+			<input type="email" id="email" name="email">
+			<label for="message">メッセージ</label>
+			<textarea id="message" name="message"></textarea>
+			<input type="submit" value="送信">
+		</form>
+	</section>
+
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
 </body>
 </html>
