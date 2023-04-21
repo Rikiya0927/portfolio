@@ -16,6 +16,8 @@ function hideLoadingScreen() {
 //     }, 2500);
 // });
 
-setTimeout(function() {
-    hideLoadingScreen();
-}, 2500);
+// setTimeout(function() {
+//     hideLoadingScreen();
+// }, 2500);
+
+
