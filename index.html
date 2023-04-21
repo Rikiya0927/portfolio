@@ -8,6 +8,28 @@
 	<script src="getage.js"></script>
 	<script src="portforio.js"></script>
 	<script src="load.js"></script>
+	<!-- <script>
+		// ローディング画面を表示する
+		function showLoadingScreen() {
+			document.getElementById("load").style.display = "flex";
+		}
+
+		// ローディング画面を非表示にする
+		function hideLoadingScreen() {
+			document.getElementById("load").style.display = "none";
+		}
+
+		// ページの読み込みが完了したらloading画面を非表示にする
+		window.addEventListener("load", function() {
+			// CSSが完全に読み込まれたらloading画面を非表示にする
+			document.styleSheets[0].ownerNode.addEventListener("load", function() {
+				hideLoadingScreen();
+			});
+
+			// loading画面を表示する
+			// showLoadingScreen();
+		}); -->
+	<!-- </script> -->
 </head>
 <body>
 	<header>
@@ -34,14 +56,25 @@
 		<div>O</div>
 		<div>L</div>
 	</div>
-
+	  
 	<section id="about">
 		<h2>自己紹介</h2>
 		<p>都内情報系の大学に通う学生です。</p>
 		<p>誕生日：2002年9月27日（現在の年齢: <span id="age"></span>歳）</p>
-
+		
 	</section>
-	
+
+	<!-- <section id="skills">
+		<h2>スキル</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Python</li>
+			<li>C</li>
+			<li>PHP(Lalavel)</li>
+		</ul>
+	</section> -->
+
 	<section id="works">
 		<h2>作品</h2>
 		<ul>
