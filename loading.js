@@ -12,7 +12,6 @@ function hideLoadingScreen() {
 window.addEventListener("load", function() {
     // 2.5秒後にloading画面を非表示にする
     setTimeout(function() {
-        // showLoadingFadeScreen();
         hideLoadingScreen();
     }, 2500);
 });
