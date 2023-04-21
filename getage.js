@@ -20,7 +20,7 @@ function getAge(year, month, day) {
   
     // 年齢の値を返す
     return age;
-  }
+}
   
-  // 結果をコンソールに出力
-  console.log(getAge(2002, 9, 27));
+// 結果をコンソールに出力
+console.log(getAge(2002, 9, 27));
