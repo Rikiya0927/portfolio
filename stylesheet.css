@@ -222,6 +222,10 @@ p {
   margin: 5px 0;
 }
 
+.wide {
+  line-height: 2.0;
+}
+
 nav {
 	float: right;
 }
